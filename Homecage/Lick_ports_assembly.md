@@ -8,40 +8,40 @@ Lick Ports are used both for lick detection and reward delivery. Regarding the f
   </figure>
 </div>
 
-## 📦 Hardware Parts List
+## Hardware Parts List
 
-### 🔌 Electronics
+### Electronics
 
-| # | Item                                                          | Qty       |Source                 |Identifier          |  Notes                                |
-|:-:|:-:                                                            |:-:        |:-:                    |:-:                 |:-:                                    |
+| # | Item                                                          | Qty       | Source                   | Identifier         | Notes                                                       |
+|:-:|:-:                                                            |:-:        |:-:                       |:-:                 |:-:                                                          |
 <a id="electro1"></a>
-| 1 | Shielded cable                                                | 25–28 cm  | Belden                  | 1804A             |To protect the signal from electrical noise and interference|
+| 1 | Shielded cable                                                | 25–28 cm  | Belden                   | 1804A              | To protect the signal from electrical noise and interference |
 <a id="electro2"></a>
-| 2 | Optical switch (Phototransistor)                              | 1         | Onsemi                | QRE1113             |                                       |
+| 2 | Optical switch (Phototransistor)                              | 1         | Onsemi                   | QRE1113            |                                                             |
 <a id="electro3"></a>
-| 3 | Wirewound Resistor - Through hole EP 2W (SS, 330Ω, 5%)        | 1         | TE Connectivity EP2WSS330RJ           | EP2WSS330RJ    |To control the current flow            | <!--Verify Mfr. source & Identifier-->
+| 3 | Wirewound Resistor - Through hole EP 2W (SS, 330Ω, 5%)        | 1         | TE Connectivity          | EP2WSS330RJ        | To control the current flow                                 |
 <a id="electro4"></a>
-| 4 | Metal Film Resistor - Through hole 0.6W 50ppm CECC (47kΩ, 1%) | 1         | Vishay / Beyschlag     | MBB0207VC4702FCT00 | To control the signal output voltage  |
+| 4 | Metal Film Resistor - Through hole 0.6W 50ppm CECC (47kΩ, 1%) | 1         | Vishay / Beyschlag       | MBB0207VC4702FCT00 | To control the signal output voltage                        |
 
-### 🔧 Other Hardware
+### Other Hardware
 
-| # | Item                                                          | Qty       | Source          | Identifier         | Notes  |
-|:-:|:-:                                                            |:-:        |:-:              |:-:                 |:-:                      |
+| # | Item                                                          | Qty       | Source             | Identifier  | Notes                                                                                                                         |
+|:-:|:-:                                                            |:-:        |:-:                 |:-:          |:-:                                                                                                                            |
 <a id="other1"></a>
-| 1 | Heat shrink set                                               | 6         | Cyg, Grobotronics      | 05-00017098 | 4x1/16’’ - for the individual wires 1x3/16’’ - for the sensor’s side 1x1/4’’ or 1x3/8’’ - for the phototransistor’s side                 | <!--Verify Mfr. source & Identifier-->
+| 1 | Heat shrink set                                               | 6         | Cyg, Grobotronics  | 05-00017098 | 4x1/16'' - for the individual wires 1x3/16'' - for the sensor's side 1x1/4'' or 1x3/8'' - for the phototransistor's side     |
 <a id="other2"></a>
-| 2 | Welded Stainless Steel Tubing 6 mm OD, 0.25 mm Wall Thickness | 3–4 cm    | McMaster-Carr         |   50415K25   |                     | <!--Verify Mfr. source & Identifier-->
+| 2 | Welded Stainless Steel Tubing 6 mm OD, 0.25 mm Wall Thickness | 3–4 cm    | McMaster-Carr      | 50415K25    |                                                                                                                               |
 <a id="other3"></a>
-| 3 | Unolok Disposable Needle (18G)                                | 1         | HMD          |  100445               |For reward delivery  | 
+| 3 | Unolok Disposable Needle (18G)                                | 1         | HMD                | 100445      | For reward delivery                                                                                                           |
 <a id="other4"></a>
-| 4 | Male Pin Header (1×40, 2.54mm)                                | 3 pins    | Grobotronics      | 19-00011916      |                     | <!--Add Mfr. source & Identifier-->
+| 4 | Male Pin Header (1×40, 2.54mm)                                | 3 pins    | Grobotronics       | 19-00011916 |                                                                                                                               |
 <a id="other5"></a>
-| 5 | Soldering Wire Cynel 100g 0.5mm - Lead Free                   | —         | Grobotronics      | 05-00605630      |                     | <!--Add Mfr. source & Identifier-->
+| 5 | Soldering Wire Cynel 100g 0.5mm - Lead Free                   | —         | Grobotronics       | 05-00605630 |                                                                                                                               |
 <a id="other6"></a>
-| 6 | Bison 5 minutes epoxy glue                                    | —         | Bison          | 6305448             |                     |<!--Verify Mfr. source & Identifier-->
+| 6 | Bison 5 minutes epoxy glue                                    | —         | Bison              | 6305448     |                                                                                                                               |
 
 
-## 🛠️ Step-by-step assemply instructions
+## Step-by-Step Assembly Instructions
 
 ### Connecting the cable to the sensor
 
@@ -85,7 +85,7 @@ Note: As the hot air gun shrinks the tube, ensure that the epoxy glue will not c
 
 **Step 9**. Cut the pointy edge of the 18G needle ([Other Hardware parts list, item #3](#other3)). and smooth it with sandpaper. Remove the plastic hub from the needle. Ensure that the needle is long enough to extend beyond the bottom end of the steel cylinder so that it can be properly connected to the water tube ([Fig. 4](#fig4)).
 
-> :memo: **Note:** The needle is required <ins>only if</ins> you will use the lick port for reward delivery.
+> **Note:** The needle is required only if you will use the lick port for reward delivery.
 
 <figure id="fig4">
   <img src="Lick_ports_Figures/Fig4.png" width="30%" />

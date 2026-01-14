@@ -8,13 +8,13 @@ In this protocol, the open-field behavioral setup is used to allow freely-moving
 
 | # | Item                               | Qty | Source                                   | Identifier                                                   | Notes                                            |
 |:-:|:-:                                 |:-:  |:-:                                       |:-:                                                           |:-:                                               |
-<a id="eletro1"></a>
-| 1 | Arduino Nano Every Board           | 1   | Arduino Store                            | ABX00028                                                     |                                                  | 
-<a id="eletro2"></a>
+<a id="electro1"></a>
+| 1 | Arduino Nano Every Board           | 1   | Arduino Store                            | ABX00028                                                     |                                                  |
+<a id="electro2"></a>
 | 2 | PCB Controller Board               | 1   | JLCPCB (JiaLiChuang (HongKong) Co., LTD) | [custom](../EthoPy_Controller/README.md)|  |
-<a id="eletro3"></a>
+<a id="electro3"></a>
 | 3 | 13.3" Capacitive Touch Screen LCD  | 1   | Waveshare                                | HDMI LCD (H)                                                 | Presentation of stimuli, with Toughened Glass Cover, 1920×1080 |
-<a id="eletro4"></a>
+<a id="electro4"></a>
 | 4 | HDMI Cable (2m, 4K/60Hz)           | 1   | Ugreen                                   |     ED015                                                    |Connects the screen with the PC                    |
 
 ### Other Hardware
@@ -40,11 +40,11 @@ In this protocol, the open-field behavioral setup is used to allow freely-moving
 <a id="other9"></a>
 | 9 | M4 Screws                                 | —   | M4X10        | —                                                         | 11x L10 & 16x L8                                     |
 <a id="other10"></a>
-| 10| M4 T-nuts 20x20                           | 9   | _            | 14-00085144                                               |                                                      |
+| 10| M4 T-nuts 20x20                           | 9   | —            | 14-00085144                                               |                                                      |
 <a id="other11"></a>
 | 11| V-Slot Gantry Set 2020 with Three Wheels  | 2   | Grobotronics | 14-00020155                                               |                                                      |
 <a id="other12"></a>
-| 12| Lickport                                  | 1   | _            | [Custom](../Homecage/Lick_ports_assembly.md) | Delivers water                                       |
+| 12| Lickport                                  | 1   | —            | [Custom](../Homecage/Lick_ports_assembly.md) | Delivers water                                       |
 <a id="other13"></a>
 | 13| LHD Series 3-Way Control Solenoid Valve   | 1   | Lee SLR      | LHDA0533415H                                              |                                                      |
 

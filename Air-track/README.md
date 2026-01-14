@@ -2,55 +2,55 @@
 
 In this paradigm, head-fixed mice perform a visual two-alternative forced choice task. This setup can be adapted to accommodate more sensory modalities by using appropriate equipment.
 
-## Hardware parts list
+## Hardware Parts List
 
 ### Electronics
 
-| # |Item                                                         |Qty  |Source                 |Identifier   |Notes                          |
-|:-:|:-:                                                          |:-:  |:-:                    |:-:          |:-:                            |
+| # | Item | Qty | Source | Identifier | Notes |
+|:-:|:-:|:-:|:-:|:-:|:-:|
 <a id="electro1"></a>
-|1  |Bpod port interface board                                    |3    |Sanworks               |1008         |Controlling the behavior ports |
+| 1 | Bpod port interface board | 3 | Sanworks | 1008 | Controlling the behavior ports |
 <a id="electro2"></a>
-|2  |solenoid valves                                              |2    |LEE                    |LHDA0533415H |                               |
+| 2 | solenoid valves | 2 | LEE | LHDA0533415H | |
 <a id="electro3"></a>
-|3  |Infrared Emitter 880nm Circular Right Angle 2-Pin Side Looker|3    |Honeywell              |SEP8736-002  |For the behavior ports         |
+| 3 | Infrared Emitter 880nm Circular Right Angle 2-Pin Side Looker | 3 | Honeywell | SEP8736-002 | For the behavior ports |
 <a id="electro4"></a>
-|4  |Phototransistor IR Chip Silicon 880nm 2-Pin Side Looker      |3    |Honeywell              |SDP8436-002  |For the behavior ports         |
+| 4 | Phototransistor IR Chip Silicon 880nm 2-Pin Side Looker | 3 | Honeywell | SDP8436-002 | For the behavior ports |
 <a id="electro5"></a>
-|5  |Ethernet cable                                               |3    |Bel                    |BC-5UK005F   |                               |
+| 5 | Ethernet cable | 3 | Bel | BC-5UK005F | |
 <a id="electro6"></a>
-|6  |Cable 0.05 mm², Ø 0.8mm                                      |1    |TRU_                   |1567774      |                               |
+| 6 | Cable 0.05 mm², Ø 0.8mm | 1 | TRU_ | 1567774 | |
 
 ### Other Hardware
 
-| # |Item                                                           |Qty                                  |Source                 |Identifier   |Notes                          |
-|:-:|:-:                                                            |:-:                                  |:-:                    |:-:          |:-:                            |
+| # | Item | Qty | Source | Identifier | Notes |
+|:-:|:-:|:-:|:-:|:-:|:-:|
 <a id="hardware1"></a>
-|1  |Plexiglas air-table                                            |1                                    |Provided by Mostafa A. Nashaat, Larkum Lab, Larkum Lab, Charite, Berlin|             |
+| 1 | Plexiglas air-table | 1 | Provided by Mostafa A. Nashaat, Larkum Lab, Larkum Lab, Charite, Berlin | | |
 <a id="hardware2"></a>
-|2  |PLA platform                                                   |1                                    |Provided by Mostafa A. Nashaat, Larkum Lab, Charite, Berlin          |             |
+| 2 | PLA platform | 1 | Provided by Mostafa A. Nashaat, Larkum Lab, Charite, Berlin | | |
 <a id="hardware3"></a>
-|3  |Behavior port                                                  |3                                    |                       |             |                               |
+| 3 | Behavior port | 3 | | | |
 <a id="hardware4"></a>
-|4  |Crimp For Dupont Female                                        |15                                   |Ninigi                 |NDR-T        |                               |
+| 4 | Crimp For Dupont Female | 15 | Ninigi | NDR-T | |
 <a id="hardware5"></a>
-|5  |Tygon S3™ E-3603 Tubing (water) Ø Inner 2.38mm, Ø outer 3.97mm |4 pieces                             |Optubus                |TY2,38ST3,97 |                               |
+| 5 | Tygon S3™ E-3603 Tubing (water) Ø Inner 2.38mm, Ø outer 3.97mm | 4 pieces | Optubus | TY2,38ST3,97 | |
 <a id="hardware6"></a>
-|6  |Tygon S3™ E-3603 Tubing (water) Ø Inner 0.79mm, Ø outer 2.38mm |2 pieces                             |Optubus                |TY0,79ST2,38 |                               |
+| 6 | Tygon S3™ E-3603 Tubing (water) Ø Inner 0.79mm, Ø outer 2.38mm | 2 pieces | Optubus | TY0,79ST2,38 | |
 <a id="hardware7"></a>
-|7  |V-Hive Enclosure Base Model                                    |1                                    |RatRig                 |HW3303GK      |                               |
+| 7 | V-Hive Enclosure Base Model | 1 | RatRig | HW3303GK | |
 <a id="hardware8"></a>
-|8  |Sound insulator ISOLFON foam plate                             |4 pieces 50x50cm and 2 pieces 50x43cm|Mega Acoustic          |244317 (PA-PMP5-DG-5050)      |for sound and light insulation |
+| 8 | Sound insulator ISOLFON foam plate | 4 pieces 50x50cm and 2 pieces 50x43cm | Mega Acoustic | 244317 (PA-PMP5-DG-5050) | for sound and light insulation |
 <a id="hardware9"></a>
-|9  |Heat shrink set                                                |                                     |GROBOTRONICS           |05-00017098  |                               |
+| 9 | Heat shrink set | | GROBOTRONICS | 05-00017098 | |
 
 ### 3D printed parts
 
 You will find the blueprints for the items you should 3D print [here](3d_designs).
 
-| # |Item                                                           |Qty  |Filename                                                                         |
-|:-:|:-:                                                            |:-:  |:-:                                                                              |
-|1  |screen holders                                                 |2    |[screen_holder.stl](3d_designs/screen_holder.stl) |
+| # | Item | Qty | Filename |
+|:-:|:-:|:-:|:-:|
+| 1 | screen holders | 2 | [screen_holder.stl](3d_designs/screen_holder.stl) |
 
 ## Step-by-step Assembly instructions
 

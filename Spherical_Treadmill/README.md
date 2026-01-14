@@ -6,7 +6,7 @@ The Spherical Treadmill (ball) behavioral setup is used for head-fixed mice perf
 
 ### Electronics
 
-| # | Item                      | Qty  |Source           |Identifier    |  Notes                                 |
+| # | Item                      | Qty  | Source          | Identifier   |  Notes                                 |
 |:-:|:-:                        |:-:   |:-:              |:-:           |:-:                                     |
 <a id="electro1"></a>
 | 1 | solenoid valves           | 5    | fspumb.cn       | 0526T        | 4 for odorants, 1 for water delivery   |
@@ -19,7 +19,7 @@ The Spherical Treadmill (ball) behavioral setup is used for head-fixed mice perf
 
 ### Other Hardware
 
-| # | Item                      | Qty  |Source           |Identifier    |  Notes                                 |
+| # | Item                      | Qty  | Source          | Identifier   |  Notes                                 |
 |:-:|:-:                        |:-:   |:-:              |:-:           |:-:                                     |
 <a id="other1"></a>
 | 1 | ball bearings             | 3    | DFRobot         | FIT0007      |                                        |
