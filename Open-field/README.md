@@ -70,18 +70,17 @@ The open-field behavioral setup is enclosed in the Rat-Rig V-Hive Enclosure Base
 
 The interior of the enclosure consists of a plexiglass box (arena), where the mouse is placed during the experiment (base: 30x30cm, walls: 35x30 cm, ([Other Hardware list, item #6](#other6))).
 
-**Step 2**. Glue (e.g. hot glue) each side of the arena and place 3D printed parts (3D printed parts list, items #1,2) on the upper and lower corners ([Fig. 1](#fig1)).
+**Step 2**. Glue (e.g. hot glue) each side of the arena and place 3D printed parts (3D printed parts list, items #1,2) on the upper and lower corners (Fig. 1).
 
-<div align="center">
-<figure id="fig1">
+<p align="center">
   <img src="Open-field_Figures/Fig1a.png" width="30%" />
   <img src="Open-field_Figures/Fig1b.png" width="24%" />
-  <img src="Open-field_Figures/Fig1c.png" width="23.7%" />
-  <figcaption><b>Figure 1</b>: <i>Open-field arena: the arena (left), the base of the arena (center) and the arena on top of its base and inside the enclosure (right) </i></figcaption>
-</figure>
-</div>
+  <img src="Open-field_Figures/Fig1c.png" width="24%" />
+  <br>
+  <em>Figure 1: Open-field arena: the arena (left), the base of the arena (center) and the arena on top of its base and inside the enclosure (right) </em>
+</p>
 
-**Step 3**. Construct the following drawer to place the arena ([Fig. 1](#fig1)).
+**Step 3**. Construct the following drawer to place the arena (Fig. 1).
 
 - `Base`: 4 V-SLOT 2020 ([Other Hardware list, item #1](#other1)) with a length of 31 cm each. Connect the rails in the shape of a square and place a plexiglass (33x33cm, Other Hardware list, item #6) in the middle. When connecting the plexiglass to the square, you need to cut its corners at around 6.1 mm.
 
@@ -95,17 +94,16 @@ The interior of the enclosure consists of a plexiglass box (arena), where the mo
 
 ### Screen
 
-**Step 4**. Place a screen ([Electronics list, item #3](#electro3)) on the one side of the box between the 2 V-slots ([Fig. 2](#fig2)).
+**Step 4**. Place a screen ([Electronics list, item #3](#electro3)) on the one side of the box between the 2 V-slots (Fig. 2).
 
-**Step 5**. Connect the cable for power (included in the 13.3inch Capacitive Touch Screen LCD, ([Electronics list, item #3](#electro3))) and the HDMI ([Electronics list, item #4](#electro4)) ([Fig. 1](#fig1)).
+**Step 5**. Connect the cable for power (included in the 13.3inch Capacitive Touch Screen LCD, ([Electronics list, item #3](#electro3))) and the HDMI ([Electronics list, item #4](#electro4)) (Fig. 1).
 
-<div align="center">
-<figure id="fig2">
+<p align="center">
   <img src="Open-field_Figures/Fig2a.png" width="30%" />
-  <img src="Open-field_Figures/Fig2b.png" width="30.5%" />
-  <figcaption><b>Figure 2</b>: <i>Screen: front side of the screen (left) and back side of the screen and connections (right)</i></figcaption>
-</figure>
-</div>
+  <img src="Open-field_Figures/Fig2b.png" width="31%" />
+  <br>
+  <em>Figure 2: Screen: front side of the screen (left) and back side of the screen and connections (right)</em>
+</p>
 
 ### Arduino Board
 

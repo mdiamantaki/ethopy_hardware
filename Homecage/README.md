@@ -1,12 +1,9 @@
 # Raspberry Pi Behavioral Setup
 A key component of multiple Ethopy behavioral systems is the [Raspberry Pi](https://www.raspberrypi.com/), a small, affordable, single-board computer. It includes ports for HDMI, USB, Ethernet, audio, camera interface (CSI), display interface (DSI), and General Purpose Input/Output (GPIO) pins. It primarily runs on a Linux-based OS called Raspberry Pi OS, and also supports other operating systems. Below, we analytically describe the steps to implement a Raspberry Pi-based behavioral setup.
 
-<div align="center">
-  <figure id="fig1">
-    <img src="RP_Figures/Fig1b.png" width="%" />
-  </figure>
-</div>
-
+<p align="center">
+  <img src="RP_Figures/Fig1b.png" width="60%" />
+</p>
 
 ## Hardware Parts List
 
@@ -50,13 +47,12 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 | 4 | Center port & speaker holder  | 1   | [center_port_with_speakers.stl](3d_designs/center_port_with_speakers.stl)  | Includes speaker holders        |
 | 5 | Pins                          | 1   | [pin.stl](3d_designs/pin.stl)                                              | For mounting the center port holder |
 
-<div align="center">
-<figure id="fig1">
+<p align="center">
   <img src="RP_Figures/Fig1a.png" width="30%" />
-  <img src="RP_Figures/Fig1b.png" width="38.7%" />
-  <figcaption><b>Figure 1</b>: <i>RP setup (top: 3D printed parts of the RP’s base, bottom: assembled RP base).</i></figcaption>
-</figure>
-</div>
+  <img src="RP_Figures/Fig1b.png" width="39%" />
+  <br>
+  <em>Figure 1: RP setup (top: 3D printed parts of the RP's base, bottom: assembled RP base).</em>
+</p>
 
 
 ## Step-by-step Assembly Instructions
@@ -71,17 +67,16 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 
 **Step 5**. Plug in the side and the center ([lick](Lick_ports_assembly.md) or interruptor) ports, and the valves to the EthoPy Controller Board, to the positions indicated on the board.
 
-**Step 6**. Connect the valves to the water supply. Each LEE valve ([Electronics parts list, item #7](#electro7)) has 3 pipe-edges (1) to be connected to the lick port tube, (2) to be connected with the water supply tube, and (3) to be connected with the other valve through a tube and 2 pins to be connected to the board ([Fig. 2, left](#fig1)).
+**Step 6**. Connect the valves to the water supply. Each LEE valve ([Electronics parts list, item #7](#electro7)) has 3 pipe-edges (1) to be connected to the lick port tube, (2) to be connected with the water supply tube, and (3) to be connected with the other valve through a tube and 2 pins to be connected to the board (Fig. 2, left).
 
-In the RP setup, the upper valve corresponds to the left lick port, and the bottom valve corresponds to the right lick port ([Fig. 2, right](#fig1)).
+In the RP setup, the upper valve corresponds to the left lick port, and the bottom valve corresponds to the right lick port (Fig. 2, right).
 
-<div align="center">
-<figure id="fig2">
+<p align="center">
   <img src="RP_Figures/Fig2a.png" width="30%" />
   <img src="RP_Figures/Fig2b.png" width="30%" />
-  <figcaption><b>Figure 2</b>: <i>Connections of the solenoid valve (left: positions of the tubes, right: placement of the valves on the RP board).</i></figcaption>
-</figure>
-</div>
+  <br>
+  <em>Figure 2: Connections of the solenoid valve (left: positions of the tubes, right: placement of the valves on the RP board).</em>
+</p>
 
 **Step 7**. Connect to the RPi and run a test task.
 

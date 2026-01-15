@@ -2,11 +2,9 @@
 
 Arduino is a microcontroller that converts the analog signal from the lick and proximity ports to digital, and a Controller Board ensures the communication between the Arduino and Raspberry Pi.
 
-<div align="center">
-<figure id="fig13">
-  <img src="Controller_Figures/Fig13.png" width="%" />
-</figure>
-</div>
+<p align="center">
+  <img src="Controller_Figures/Fig13.png" width="25%" />
+</p>
 
 ## Parts List
 
@@ -49,113 +47,88 @@ Arduino is a microcontroller that converts the analog signal from the lick and p
 <a id="electro17"></a>
 | 17 | Printed Circuit Board (PCB)              | 1    | Custom                       | —                       |       |
 
-<div align="center">
-<figure id="fig1">
+<p align="center">
   <img src="Controller_Figures/Fig1.png" width="30%" />
-  <figcaption><b>Figure 1</b>: <i>EthoPy Controller Board and Arduino parts</i></figcaption>
-</figure>
-</div>
+  <br>
+  <em>Figure 1: EthoPy Controller Board and Arduino parts</em>
+</p>
 
 > **Note:** You will also need: a soldering iron, a wire cutter
 
 ## Step-by-Step Assembly Instructions
 
-**Step 1**. Print the PCB board of the schematic ([Fig. 2](#fig2)). PCB and gerber files for JLPCB will be available in a future update.
+**Step 1**. Print the PCB board of the schematic (Fig. 2). PCB and gerber files for JLPCB will be available in a future update.
 
-<div align="center">
-<figure id="fig2">
+<p align="center">
   <img src="Controller_Figures/Fig2.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 2**. Solder the 1x15 female pin headers on each side of the Arduino Nano Every board ([Fig. 3](#fig3)).
+**Step 2**. Solder the 1x15 female pin headers on each side of the Arduino Nano Every board (Fig. 3).
 
-<div align="center">
-<figure id="fig3">
-  <img src="Controller_Figures/Fig3a.png" width="45.6%" />
-  <img src="Controller_Figures/Fig3b.png" width="30%" />
-</figure>
-</div>
+<p align="center">
+  <img src="Controller_Figures/Fig3a.png" width="20%" />
+  <img src="Controller_Figures/Fig3b.png" width="13%" />
+</p>
 
-**Step 3**. Solder each resistor into its designated position on the PCB according to its resistance value ([Fig. 4](#fig4)).
+**Step 3**. Solder each resistor into its designated position on the PCB according to its resistance value (Fig. 4).
 
-<div align="center">
-<figure id="fig4">
+<p align="center">
   <img src="Controller_Figures/Fig4.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 4**. Solder the five 1x2 male pins headers into the corresponding ports on the PCB ([Fig. 5](#fig5)).
+**Step 4**. Solder the five 1x2 male pins headers into the corresponding ports on the PCB (Fig. 5).
 
-<div align="center">
-<figure id="fig5">
+<p align="center">
   <img src="Controller_Figures/Fig5.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 5**. Solder the transistors onto their correct positions on the board ([Fig. 6](#fig6)).
+**Step 5**. Solder the transistors onto their correct positions on the board (Fig. 6).
 
-<div align="center">
-<figure id="fig6">
+<p align="center">
   <img src="Controller_Figures/Fig6.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 6**. Solder the diodes in the same way ([Fig. 7](#fig7)).
+**Step 6**. Solder the diodes in the same way (Fig. 7).
 
-<div align="center">
-<figure id="fig7">
+<p align="center">
   <img src="Controller_Figures/Fig7.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 7**. Solder the tactile push button switch in the appropriate position on the board ([Fig. 8](#fig8)).
+**Step 7**. Solder the tactile push button switch in the appropriate position on the board (Fig. 8).
 
-<div align="center">
-<figure id="fig8">
+<p align="center">
   <img src="Controller_Figures/Fig8.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 8**. Solder the capacitor, ensuring the longer positive lead goes into the right hole ([Fig. 9](#fig9)).
+**Step 8**. Solder the capacitor, ensuring the longer positive lead goes into the right hole (Fig. 9).
 
-<div align="center">
-<figure id="fig9">
+<p align="center">
   <img src="Controller_Figures/Fig9.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 9**. Solder the right-angle female pin headers - two on the left side (1x2) for valves and three on the bottom (1x3) for ports and centerport ([Fig. 10](#fig10)).
+**Step 9**. Solder the right-angle female pin headers - two on the left side (1x2) for valves and three on the bottom (1x3) for ports and centerport (Fig. 10).
 
-<div align="center">
-<figure id="fig10">
+<p align="center">
   <img src="Controller_Figures/Fig10.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 10**. Solder the two 1x15 female pin headers for the Arduino board ([Fig. 11](#fig11)).
+**Step 10**. Solder the two 1x15 female pin headers for the Arduino board (Fig. 11).
 
-<div align="center">
-<figure id="fig11">
+<p align="center">
   <img src="Controller_Figures/Fig11.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 11**. Mount the Arduino board onto the previously mentioned female pin headers ([Fig. 12](#fig12)).
+**Step 11**. Mount the Arduino board onto the previously mentioned female pin headers (Fig. 12).
 
-<div align="center">
-<figure id="fig12">
-  <img src="Controller_Figures/Fig12a.png" width="37.5%" />
+<p align="center">
+  <img src="Controller_Figures/Fig12a.png" width="38%" />
   <img src="Controller_Figures/Fig12b.png" width="30%" />
-</figure>
-</div>
+</p>
 
-**Step 12**. Solder the 40-pin extra-tall stackable female header to connect the PCB to the Raspberry Pi board ([Fig. 13](#fig13)).
+**Step 12**. Solder the 40-pin extra-tall stackable female header to connect the PCB to the Raspberry Pi board (Fig. 13).
 
-<div align="center">
-<figure id="fig13">
+<p align="center">
   <img src="Controller_Figures/Fig13.png" width="30%" />
-</figure>
-</div>
+</p>
 
 **Step 13**. Set up the Arduino using the code provided [here](EthoPy_Controller_code.ino).
