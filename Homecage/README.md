@@ -50,12 +50,13 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 | 4 | Center port & speaker holder  | 1   | [center_port_with_speakers.stl](3d_designs/center_port_with_speakers.stl)  | Includes speaker holders        |
 | 5 | Pins                          | 1   | [pin.stl](3d_designs/pin.stl)                                              | For mounting the center port holder |
 
-
+<div align="center">
 <figure id="fig1">
   <img src="RP_Figures/Fig1a.png" width="30%" />
   <img src="RP_Figures/Fig1b.png" width="38.7%" />
   <figcaption><b>Figure 1</b>: <i>RP setup (top: 3D printed parts of the RP’s base, bottom: assembled RP base).</i></figcaption>
 </figure>
+</div>
 
 
 ## Step-by-step Assembly Instructions
@@ -74,11 +75,13 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 
 In the RP setup, the upper valve corresponds to the left lick port, and the bottom valve corresponds to the right lick port ([Fig. 2, right](#fig1)).
 
+<div align="center">
 <figure id="fig2">
   <img src="RP_Figures/Fig2a.png" width="30%" />
   <img src="RP_Figures/Fig2b.png" width="30%" />
   <figcaption><b>Figure 2</b>: <i>Connections of the solenoid valve (left: positions of the tubes, right: placement of the valves on the RP board).</i></figcaption>
 </figure>
+</div>
 
 **Step 7**. Connect to the RPi and run a test task.
 
@@ -86,7 +89,7 @@ In the RP setup, the upper valve corresponds to the left lick port, and the bott
 
 > For more information, visit their: [Rasberry Pi: Remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html)
 
-- Follow the instructions on how to [install/run EthoPy](https://ef-lab.github.io/ethopy_package/installation/)
+- Follow the instructions on how to [install/run EthoPy](https://ef-lab.github.io/ethopy_package/installation.html)
 
 > **Note (Optional):** Rename the RP and set a static IP address.
 

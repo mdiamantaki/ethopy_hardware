@@ -6,6 +6,7 @@ Welcome to the **Hardware for EthoPy** repository! This collection includes all 
 
 This repo includes one folder for each behavioral system supported by EthoPy with:
 - **Instructions** – step-by-step guides to build each setup with parts lists
+- **Figures** – photos illustrating the construction process and final setup
 - **3D designs** – ready-to-print `.stl` files
 
 ## File Structure

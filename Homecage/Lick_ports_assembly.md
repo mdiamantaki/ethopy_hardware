@@ -57,28 +57,34 @@ Lick Ports are used both for lick detection and reward delivery. Regarding the f
 - `Pin 3`: collector of the sensor (current flow after light reflection)
 - `Pin 4`: emitter of the sensor (connects to the signal output)
 
+<div align="center">
 <figure id="fig1">
   <img src="Lick_ports_Figures/Fig1a.png" width="30%" />
   <img src="Lick_ports_Figures/Fig1b.png" width="24.5%" />
   <figcaption><b>Figure 1</b>: <i>Positions of the phototransistor’s pins and their corresponding wires.</i></figcaption>
 </figure>
+</div>
 
 **Step 5**. Use the soldering station to connect the pins vertically to their corresponding wires as described below ([Fig. 2](#fig2)).
 
 **Step 6**. Use a hot air gun to heat the heat shrink tubes you have added to each wire to cover the wire and the phototransistor’s pins.
 
+<div align="center">
 <figure id="fig2">
   <img src="Lick_ports_Figures/Fig2.png" width="30%" />
   <figcaption><b>Figure 2</b>: <i>Heat shrink tubes covering the exposed wires and the phototransistor’s pins.</i></figcaption>
 </figure>
+</div>
 
 **Step 7**. Cut a piece of heat shrink tube (3/16’’) long enough to cover the exposed cable and the pins of the phototransistor, and pass it down the cable. Αpply the epoxy glue ([Other Hardware parts list, item #6](#other6)) to the exposed section of the cable and cover it up to the edge. Cover the exposed cable with the heat shrink tube and use the hot air gun to heat it. Ensure that the phototransistor’s pins and the wires are well covered.
 Note: As the hot air gun shrinks the tube, ensure that the epoxy glue will not cover the phototransistor.
 
+<div align="center">
 <figure id="fig3">
   <img src="Lick_ports_Figures/Fig3.png" width="30%" />
   <figcaption><b>Figure 3</b>: <i>Heat shrink tube covering the phototransistor side of the lick port.</i></figcaption>
 </figure>
+</div>
 
 
 **Step 8**. Cut a steel cylinder ([Other Hardware parts list, item #2](#other2)). long enough to cover the heat shrink tube that covers the exposed wires ([Fig. 4](#fig4)). Carefully smooth both edges of the cylinder with sandpaper to ensure the mouse is not injured while licking it.
@@ -87,17 +93,21 @@ Note: As the hot air gun shrinks the tube, ensure that the epoxy glue will not c
 
 > **Note:** The needle is required only if you will use the lick port for reward delivery.
 
+<div align="center">
 <figure id="fig4">
   <img src="Lick_ports_Figures/Fig4.png" width="30%" />
   <figcaption><b>Figure 4</b>: <i>Indicative lengths of the steel cylinder and the needle relative to the lick port.</i></figcaption>
 </figure>
+</div>
 
 **Step 10**. Pass the phototransistor cable and the needle through the steel cylinder. Apply epoxy glue around the heat shrink tube insulation of the phototransistor ([Fig. 5](#fig5)) and the needle, ensuring that the phototransistor’s and the needle’s tops are not covered with glue. Pull the cable and the needle so that they are on the same level and a few millimeters below the top of the steel cylinder to prevent possible damage. Fill all the empty spaces between the phototransistor and the cylinder with epoxy glue.
 
+<div align="center">
 <figure id="fig5">
   <img src="Lick_ports_Figures/Fig5.png" width="30%" />
   <figcaption><b>Figure 5</b>: <i>Phototransistor end of the lick port.</i></figcaption>
 </figure>
+</div>
 
 ### Connecting the cable to the resistors
 
@@ -107,24 +117,30 @@ You will need two resistors:
 
 **Step 11**. Shorten the wire connected to the anode and expose the conductor. Cut both ends of the 330Ω resistor ([Electronics parts list, item #3](#electro3)) and use soldering to connect the 330Ω resistor to the wires connected to the anode and the collector. Solder the resistor horizontally across the cable, connecting the distal pin to the collector wire and the proximal pin to the anode wire ([Fig. 6](#fig6)).
 
+<div align="center">
 <figure id="fig6">
   <img src="Lick_ports_Figures/Fig6.png" width="30%" />
   <figcaption><b>Figure 6</b>: <i>Connections of the 330Ω resistor.</i></figcaption>
 </figure>
+</div>
 
 **Step 12**. Shorten the wire connected to the emitter and expose the conductor. Βend one of the pins of the 47KΩ resistor ([Electronics parts list, item #4](#electro4)). Use soldering to connect the cathode wire to the straight pin and the emitter wire to the other pin ([Fig. 7](#fig7)).
 
+<div align="center">
 <figure id="fig7">
   <img src="Lick_ports_Figures/Fig7.png" width="30%" />
   <figcaption><b>Figure 7</b>: <i>Connections of the 47kΩ resistor.</i></figcaption>
 </figure>
+</div>
 
 **Step 13**. Use a male pin header ([Other Hardware parts list, item #4](#other4)) with 3 pins and connect it to the cable ([Fig. 8](#fig8)). Mark the tip that is connected to the bent pin of the 47kΩ resistor so you can distinguish it (it corresponds to the signal).
 
+<div align="center">
 <figure id="fig8">
   <img src="Lick_ports_Figures/Fig8.png" width="30%" />
   <figcaption><b>Figure 8</b>: <i>Connections of the signal cable (<b>P</b>: power, <b>G</b>: ground, <b>S</b>: signal).</i></figcaption>
 </figure>
+</div>
 
 **Step 14**. Cover the exposed cable and the proximal part of the male pin header with heat shrink tube (1/4’’ or 3/8’’), and heat it with the hot air gun.
 
@@ -136,8 +152,10 @@ You will need two resistors:
 
 **Step 17**. Use your finger to simulate the lick of a mouse and observe the activation of the phototransistor ([Fig. 9](#fig9)).
 
+<div align="center">
 <figure id="fig9">
   <img src="Lick_ports_Figures/Fig9a.png" width="30%" />
   <img src="Lick_ports_Figures/Fig9b.png" width="35.5%" />
   <figcaption><b>Figure 9</b>: <i>Sensor voltage output (left: connections of the power supply and the oscilloscope, right: activation of the phototransistor).</i></figcaption>
 </figure>
+</div>

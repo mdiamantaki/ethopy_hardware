@@ -2,6 +2,10 @@
 
 In this paradigm, head-fixed mice perform a visual two-alternative forced choice task. This setup can be adapted to accommodate more sensory modalities by using appropriate equipment.
 
+<figure id="fig">
+  <img src="figures/Fig.png" width="%" />
+</figure>
+
 ## Hardware Parts List
 
 ### Electronics

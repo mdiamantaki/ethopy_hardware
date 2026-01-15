@@ -51,6 +51,8 @@ In this protocol, the open-field behavioral setup is used to allow freely-moving
 
 ### 3D Printed Parts
 
+You will find the blueprints for the items you should 3D print [here](3d_designs).
+
 | # | Item            | Qty | Filename                                                                                              | Notes |
 |:-:|:-:              |:-:  |:-:                                                                                                    |:-:    |
 | 1 | Lower Corners   | 4   | [open-field_bottom_corner.stl](3d_designs/open-field_bottom_corner.stl)    |       |
