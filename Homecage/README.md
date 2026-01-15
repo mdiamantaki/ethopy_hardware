@@ -8,9 +8,9 @@ A key component of multiple Ethopy behavioral systems is the [Raspberry Pi](http
 </div>
 
 
-## 📦 Hardware Parts List
+## Hardware Parts List
 
-### 🔌 Electronics
+### Electronics
 
 | # | Item                                          | Qty     | Source              | Identifier            | Notes                                                                                     |
 |:-:|:-:                                            |:-:      |:-:                  |:-:                    |:-:                                                                                        |
@@ -21,34 +21,34 @@ A key component of multiple Ethopy behavioral systems is the [Raspberry Pi](http
 <a id="electro3"></a>
 | 3 | Premium High Speed microSD Card               | 1       |  Integral  | INMSDH32G-100/70V30              |                                                                                           |
 <a id="electro4"></a>
-| 4 | EthoPy Controller Board                       | 1       | [Custom](https://github.com/ef-lab/ethopy_hardware/blob/main/EthoPy_Controller/EthoPy_Controller_Board.md)              |                       |                                                                                           |
+| 4 | EthoPy Controller Board                       | 1       | [Custom](../EthoPy_Controller/README.md)              |                       |                                                                                           |
 <a id="electro5"></a>
-| 5 | Lick Ports                                    | 2 or 3  | [Custom](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/Lick_ports_assemply.md)              |                       | 2 to detect licks and deliver water, 1 can be used as a proximity indicator (center port) |
+| 5 | Lick Ports                                    | 2 or 3  | [Custom](Lick_ports_assembly.md)              |                       | 2 to detect licks and deliver water, 1 can be used as a proximity indicator (center port) |
 <a id="electro6"></a>
 | 6 | Beam Photoelectric Sensor                     | 1       | HAITRONIC               | HR0172          |Can be used as a proximity indicator (center port)                                         |
 <a id="electro7"></a>
-| 7 | Solenoid valves                               | 2       | LEE SLR         | LHDA0533415H               |                                                                                           | <!--Verify Mfr. source-->
+| 7 | Solenoid valves                               | 2       | LEE SLR         | LHDA0533415H               |                                                                                           |
 <a id="electro8"></a>
-| 8 | Ultrasound Speakers 40kHz                     | 2       | PUI Audio      | UT-1640K-TT-2-R    |For auditory experiments. See: [Speakers_assemply](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/Speakers_assemply.md)                                                                    |
+| 8 | Ultrasound Speakers 40kHz                     | 2       | PUI Audio      | UT-1640K-TT-2-R    |For auditory experiments. See: [Speakers_assembly](Speakers_assembly.md)                                                                    |
 
-### 🔧 Other Hardware
+### Other Hardware
 
 | # | Item                                | Qty | Source      | Identifier    | Notes       |
 |:-:|:-:                                  |:-:  |:-:          |:-:            |:-:          |
 <a id="other1"></a>
-| 1 | M3 screws                           | 6   | Grobotronics  | M3X12/D7985  |             | <!--Verify Mfr. source & Identifier-->
+| 1 | M3 screws                           | 6   | Grobotronics  | M3X12/D7985  |             |
 <a id="other2"></a>
-| 2 | Raspberry Pi 4 Heatsink (40x30x5mm) | 1   | Grobotronics  | 49-00012076  |             | <!--Verify Mfr. source & Identifier-->
+| 2 | Raspberry Pi 4 Heatsink (40x30x5mm) | 1   | Grobotronics  | 49-00012076  |             |
 
-### 🧩 3D printed parts
-You will find the blueprints for the items you should 3D print [here](https://github.com/ef-lab/ethopy_hardware/tree/main/Homecage/3d_designs).
+### 3D Printed Parts
+You will find the blueprints for the items you should 3D print [here](3d_designs).
 | # | Item                          | Qty | Filename                                                                                            | Notes                           |
 |:-:|:-:                            |:-:  |:-:                                                                                                  |:-:                              |
-| 1 | Base                          | 1   | [base.stl](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/3d_designs/base.stl)                                            | Includes the lick port holders  |
-| 2 | Screen holder                 | 2   | [screen_holder.stl](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/3d_designs/screen_holder.stl)                          |                                 |
-| 3 | Center port holder            | 1   | [center_port.stl](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/3d_designs/center_port.stl)                              |                                 |
-| 4 | Center port & speaker holder  | 1   | [center_port_with_speakers.stl](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/3d_designs/center_port_with_speakers.stl)  | Includes speaker holders        |
-| 5 | Pins                          | 1   | [pin.stl](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/3d_designs/pin.stl)                                              | For mounting the center port holder |
+| 1 | Base                          | 1   | [base.stl](3d_designs/base.stl)                                            | Includes the lick port holders  |
+| 2 | Screen holder                 | 2   | [screen_holder.stl](3d_designs/screen_holder.stl)                          |                                 |
+| 3 | Center port holder            | 1   | [center_port.stl](3d_designs/center_port.stl)                              |                                 |
+| 4 | Center port & speaker holder  | 1   | [center_port_with_speakers.stl](3d_designs/center_port_with_speakers.stl)  | Includes speaker holders        |
+| 5 | Pins                          | 1   | [pin.stl](3d_designs/pin.stl)                                              | For mounting the center port holder |
 
 <div align="center">
 <figure id="fig1">
@@ -59,7 +59,7 @@ You will find the blueprints for the items you should 3D print [here](https://gi
 </div>
 
 
-## 🛠️ Step-by-step assemply instructions
+## Step-by-step Assembly Instructions
 
 **Step 1**. Install the [operating system of the RPi](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system). In our experiments, we have used the [Bullseye Raspberry Pi OS](https://www.raspberrypi.com/news/raspberry-pi-os-debian-bullseye/).
 
@@ -69,7 +69,7 @@ You will find the blueprints for the items you should 3D print [here](https://gi
 
 **Step 4**. Add a heatsink ([Other Hardware parts list, item #2](#other2)) on the back of the RP to avoid excessive warming.
 
-**Step 5**. Plug in the side and the center ([lick](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/Lick_ports_assemply.md) or interruptor) ports, and the valves to the EthoPy Controller Board, to the positions indicated on the board.
+**Step 5**. Plug in the side and the center ([lick](Lick_ports_assembly.md) or interruptor) ports, and the valves to the EthoPy Controller Board, to the positions indicated on the board.
 
 **Step 6**. Connect the valves to the water supply. Each LEE valve ([Electronics parts list, item #7](#electro7)) has 3 pipe-edges (1) to be connected to the lick port tube, (2) to be connected with the water supply tube, and (3) to be connected with the other valve through a tube and 2 pins to be connected to the board ([Fig. 2, left](#fig1)).
 
@@ -91,6 +91,6 @@ In the RP setup, the upper valve corresponds to the left lick port, and the bott
 
 - Follow the instructions on how to [install/run EthoPy](https://ef-lab.github.io/ethopy_package/installation.html)
 
-> :memo: **Note (Optional):** Rename the RP and set a static IP address.
+> **Note (Optional):** Rename the RP and set a static IP address.
 
-> :bulb: **Tip:** When using multiple RPs, it is best to use unique names that follow a consistent structure and assign static IP addresses to each RP to facilitate identification and management. To do this, connect to the RP and change its default name following the [instructions](https://ef-lab.github.io/ethopy_package/raspberry_pi). It is recommended to use a fixed prefix followed by an incremental number for each RP added.
+> **Tip:** When using multiple RPs, it is best to use unique names that follow a consistent structure and assign static IP addresses to each RP to facilitate identification and management. To do this, connect to the RP and change its default name following the [instructions](https://ef-lab.github.io/ethopy_package/raspberry_pi). It is recommended to use a fixed prefix followed by an incremental number for each RP added.

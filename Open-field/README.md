@@ -2,22 +2,22 @@
 
 In this protocol, the open-field behavioral setup is used to allow freely-moving mice to perform two-alternative forced choice tasks. Below, we describe the protocol to implement an open-field behavioral setup for  a visual discrimination task.
 
-## 📦 Hardware Parts List
+## Hardware Parts List
 
-### 🔌 Electronics
+### Electronics
 
 | # | Item                               | Qty | Source                                   | Identifier                                                   | Notes                                            |
 |:-:|:-:                                 |:-:  |:-:                                       |:-:                                                           |:-:                                               |
-<a id="eletro1"></a>
-| 1 | Arduino Nano Every Board           | 1   | Arduino Store                            | ABX00028                                                     |                                                  | 
-<a id="eletro2"></a>
-| 2 | PCB Controller Board               | 1   | JLCPCB (JiaLiChuang (HongKong) Co., LTD) | [custom](https://github.com/ef-lab/ethopy_hardware/blob/main/EthoPy_Controller/EthoPy_Controller_Board.md)|  |
-<a id="eletro3"></a>
+<a id="electro1"></a>
+| 1 | Arduino Nano Every Board           | 1   | Arduino Store                            | ABX00028                                                     |                                                  |
+<a id="electro2"></a>
+| 2 | PCB Controller Board               | 1   | JLCPCB (JiaLiChuang (HongKong) Co., LTD) | [custom](../EthoPy_Controller/README.md)|  |
+<a id="electro3"></a>
 | 3 | 13.3" Capacitive Touch Screen LCD  | 1   | Waveshare                                | HDMI LCD (H)                                                 | Presentation of stimuli, with Toughened Glass Cover, 1920×1080 |
-<a id="eletro4"></a>
+<a id="electro4"></a>
 | 4 | HDMI Cable (2m, 4K/60Hz)           | 1   | Ugreen                                   |     ED015                                                    |Connects the screen with the PC                    |
 
-### 🔧 Other Hardware
+### Other Hardware
 
 | # | Item                                      | Qty | Source       | Identifier                                                | Notes                                                |
 |:-:|:-:                                        |:-:  |:-:           |:-:                                                        |:-:                                                   |
@@ -40,35 +40,33 @@ In this protocol, the open-field behavioral setup is used to allow freely-moving
 <a id="other9"></a>
 | 9 | M4 Screws                                 | —   | M4X10        | —                                                         | 11x L10 & 16x L8                                     |
 <a id="other10"></a>
-| 10| M4 T-nuts 20x20                           | 9   | _            | 14-00085144                                               |                                                      |
+| 10| M4 T-nuts 20x20                           | 9   | —            | 14-00085144                                               |                                                      |
 <a id="other11"></a>
 | 11| V-Slot Gantry Set 2020 with Three Wheels  | 2   | Grobotronics | 14-00020155                                               |                                                      |
 <a id="other12"></a>
-| 12| Lickport                                  | 1   | _            | [Custom](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/Lick_ports_assemply.md) | Delivers water                                       |
+| 12| Lickport                                  | 1   | —            | [Custom](../Homecage/Lick_ports_assembly.md) | Delivers water                                       |
 <a id="other13"></a>
 | 13| LHD Series 3-Way Control Solenoid Valve   | 1   | Lee SLR      | LHDA0533415H                                              |                                                      |
 
 
-### 🧩 3D Printed Parts
+### 3D Printed Parts
 
-You will find the blueprints for the items you should 3D print [here](https://github.com/ef-lab/ethopy_hardware/tree/main/Open-field/3d_designs).
+You will find the blueprints for the items you should 3D print [here](3d_designs).
 
 | # | Item            | Qty | Filename                                                                                              | Notes |
 |:-:|:-:              |:-:  |:-:                                                                                                    |:-:    |
-| 1 | Lower Corners   | 4   | [open-field_bottom_corner.stl](https://github.com/ef-lab/ethopy_hardware/blob/main/Open-field/3d_designs/open-field_bottom_corner.stl)    |       |
-| 2 | Upper Corners   | 4   | [open-field_top_corner.stl](https://github.com/ef-lab/ethopy_hardware/blob/main/Open-field/3d_designs/open-field_top_corner.stl)          |       |
+| 1 | Lower Corners   | 4   | [open-field_bottom_corner.stl](3d_designs/open-field_bottom_corner.stl)    |       |
+| 2 | Upper Corners   | 4   | [open-field_top_corner.stl](3d_designs/open-field_top_corner.stl)          |       |
 
----
-
-## 🛠️ Step-by-step assemply instructions
+## Step-by-step Assembly Instructions
 
 The open-field behavioral setup is enclosed in the Rat-Rig V-Hive Enclosure Base Model ([Other Hardware list, item #7](#other7)). Assembly instructions can be found here.
 
-### 🔇 Enclosure & Sound Insulation
+### Enclosure & Sound Insulation
 
-**Step 1**. To make the enclosure sound-proof, use `sound insulation material` (eg. ISOLFON foam plate, ([Other Hardware list, item #8](#other8))) to cover all sides of the enclosure, i.e. use 4 pieces with dimensions 50x50cm and 2 pieces with dimensions 50x43cm.
+**Step 1**. To make the enclosure sound-proof, use sound insulation material (eg. ISOLFON foam plate, ([Other Hardware list, item #8](#other8))) to cover all sides of the enclosure, i.e. use 4 pieces with dimensions 50x50cm and 2 pieces with dimensions 50x43cm.
 
-### 🐭 Arena Construction
+### Arena Construction
 
 The interior of the enclosure consists of a plexiglass box (arena), where the mouse is placed during the experiment (base: 30x30cm, walls: 35x30 cm, ([Other Hardware list, item #6](#other6))).
 
@@ -95,7 +93,7 @@ The interior of the enclosure consists of a plexiglass box (arena), where the mo
 
 - `Sliding`: Screw 2 V-Slot Gantry Sets 2020 with Three Wheels ([Other Hardware list, item #11](#other11)) on each side of the base with M4 (8mm, ([Other Hardware list, item #9](#other9))) screws and M4 20x20 Tee Nuts ([Other Hardware list, item #10](#other10)). Attach each V-Slot Gantry Set to the rails.
 
-### :tv: Screen
+### Screen
 
 **Step 4**. Place a screen ([Electronics list, item #3](#electro3)) on the one side of the box between the 2 V-slots ([Fig. 2](#fig2)).
 
@@ -109,21 +107,21 @@ The interior of the enclosure consists of a plexiglass box (arena), where the mo
 </figure>
 </div>
 
-### 🧰 Arduino Board
+### Arduino Board
 
-**Step 6**. Follow instructions for [EthoPy Controller Board](https://github.com/ef-lab/ethopy_hardware/blob/main/EthoPy_Controller/EthoPy_Controller_Board.md)
+**Step 6**. Follow instructions for [EthoPy Controller Board](../EthoPy_Controller/README.md)
 
-### 💧 Lickport
+### Lickport
 
-**Step 7**. Follow instructions [here](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/Lick_ports_assemply.md) to make the lickport ([Other Hardware list, item #12](#other12)).
+**Step 7**. Follow instructions [here](../Homecage/Lick_ports_assembly.md) to make the lickport ([Other Hardware list, item #12](#other12)).
 
 **Step 8**. Connect the lickport to the arduino board and a solenoid valve ([Other Hardware list, item #13](#other13)) in a pressurized tubing network (STAR methods, liquid delivery).
 
-### ⚙️ Extra parts
+### Extra Parts
 
-To record the experiment you need red LED lights :rotating_light: and a camera :camera:
+To record the experiment you need red LED lights and a camera.
 
-> :bulb: **Note:** We used Arducam 2.3MP AR0234 Color Global Shutter USB 3.0 Camera Module-With Enclosure. If you use a camera that records in darkness, lights might not be necessary.
+> **Note:** We used Arducam 2.3MP AR0234 Color Global Shutter USB 3.0 Camera Module-With Enclosure. If you use a camera that records in darkness, lights might not be necessary.
 
-### 🖥️ PC requirements
+### PC Requirements
 For the Open-field setup in the EthoPy project, in addition to the standard installation, you will need to enable real-time pose estimation by installing `DeepLabCut-Live`, which provides a lightweight, low-latency inference pipeline for online tracking. To achieve frame rates greater than 30 FPS, we strongly recommend using a system running Ubuntu paired with a powerful NVIDIA GPU (minimum 8GB VRAM), as this ensures compatibility with TensorFlow and allows for GPU-accelerated inference. CPU-only systems or unsupported GPUs (e.g., Intel or AMD) will not meet the real-time demands.

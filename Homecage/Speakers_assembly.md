@@ -7,27 +7,24 @@ Speakers are used to provide auditory cues during behavioral experiments. They c
 </figure>
 </div>
 
-## 📦 Hardware Parts List
+## Hardware Parts List
 
-### 🔌 Electronics
-| # | Item                                      | Qty  | Source                | Identifier       | Notes                               |
-|:-:|:-:                                        |:-:   |:-:                    |:-:               |:-:                                  |
+### Electronics
+| # | Item                           | Qty  | Source            | Identifier      | Notes                            |
+|:-:|:-:                             |:-:   |:-:                |:-:              |:-:                               |
 <a id="electro1"></a>
-| 1 | Ultrasound Speakers 40kHz                 | 2    | PUI Audio              |    UT-1640K-TT-2-R       | Transmitter | <!--Add Mfr. source & Identifier-->
+| 1 | Ultrasound Speakers 40kHz      | 2    | PUI Audio         | UT-1640K-TT-2-R | Transmitter                      |
 <a id="electro2"></a>
-| 2 | Speaker (Receiver)                        | 1    | —                     |                  |                                     | <!--Add Mfr. source & Identifier-->
+| 2 | Speaker (Receiver)             | 1    | —                 | —               |                                  |
 <a id="electro3"></a>
-| 3 | Jumper wire (female-to-female)            | 2    | GROBOTRONICS            | 05-00011907     |                                     | <!--Add Mfr. source & Identifier-->
+| 3 | Jumper wire (female-to-female) | 2    | GROBOTRONICS      | 05-00011907     |                                  |
 <a id="electro4"></a>
-| 3 | Heat shrink set                           | 6    | Cyg, Grobotronics            | 05-00017098 | Two 12cm  and four 20cm Jumper wire | <!--Verify Mfr. source & Identifier-->
-<a id="electro5"></a>
+| 4 | Heat shrink set                | 6    | Cyg, Grobotronics | 05-00017098     | Two 12cm and four 20cm Jumper wire |
 
+### 3D Printed Parts
+You will find the blueprints for the item you should 3D print [here](3d_designs/center_port_with_speakers.stl).
 
-
-### 🧩 3D printed parts
-You will find the blueprints for the item you should 3D print [here](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/3d_designs/center_port_with_speakers.stl).
-
-## 🛠️ Step-by-step assemply instructions
+## Step-by-Step Assembly Instructions
 
 **Step 1**. Select four long female-to-female jumper wires and connect one end of each to the pins of the speaker ([Fig. 1](#fig1)). Repeat this step twice.
 
@@ -67,7 +64,7 @@ You will find the blueprints for the item you should 3D print [here](https://git
 </figure>
 </div>
 
-**Step 6**. Connect your speakers to your Raspberry Pi Pinout. First, go to the `EthoPy/Interfaces/RPPorts.py` <!--Double check this path--> and look at the `class RPPorts(Interface)`. Here, you see which channel corresponds to the RP GPIO pins based on what you want to connect. So, for **sound** is channel `GPIO 13` ([Fig. 6](#fig6)).
+**Step 6**. Connect your speakers to your Raspberry Pi Pinout. First, go to the `EthoPy/Interfaces/RPPorts.py` and look at the `class RPPorts(Interface)`. Here, you see which channel corresponds to the RP GPIO pins based on what you want to connect. So, for **sound** is channel `GPIO 13` ([Fig. 6](#fig6)).
 
 <div align="center">
 <figure id="fig6">

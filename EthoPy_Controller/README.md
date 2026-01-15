@@ -8,46 +8,46 @@ Arduino is a microcontroller that converts the analog signal from the lick and p
 </figure>
 </div>
 
-## 📦 Parts List
+## Parts List
 
-### 🔌 Electronics
+### Electronics
 
-| # | Item                                      | Qty  | Source                     | Identifier                    | Notes | 
-|:-:|:-:                                        |:-:   |:-:                         |:-:                            |:-:    |
+| # | Item                                      | Qty  | Source                       | Identifier              | Notes |
+|:-:|:-:                                        |:-:   |:-:                           |:-:                      |:-:    |
 <a id="electro1"></a>
-| 1 | 40-pin Stackable Female Extra Tall Header | 1    | Grobotronics             |                          |       | <!--Add Mfr. source & Identifier-->
+| 1 | 40-pin Stackable Female Extra Tall Header | 1    | Grobotronics                 |                         |       |
 <a id="electro2"></a>
-| 2 | Arduino Nano Every                        | 1    | Arduino Store            |                  |       |
+| 2 | Arduino Nano Every                        | 1    | Arduino Store                |                         |       |
 <a id="electro3"></a>
-| 3 | 1x2 Female Pin Header Right Angle         | 2    | Grobotronics                |05-00011907         |       | <!--Add Mfr. source & Identifier-->
+| 3 | 1x2 Female Pin Header Right Angle         | 2    | Grobotronics                 | 05-00011907             |       |
 <a id="electro4"></a>
-| 3 | 1x3 Female Pin Header Right Angle         | 3    |                 | 05-00011907               |       | <!--Add Mfr. source & Identifier-->
+| 4 | 1x3 Female Pin Header Right Angle         | 3    | Grobotronics                 | 05-00011907             |       |
 <a id="electro5"></a>
-| 4 | 1x2 Male Pin Header                       | 5    |                | 19-00011916                   |       | <!--Add Mfr. source & Identifier-->
+| 5 | 1x2 Male Pin Header                       | 5    | Grobotronics                 | 19-00011916             |       |
 <a id="electro6"></a>
-| 5 | 1x15 Female Pin Header                    | 2    |                 | 19-00011915                 |       | <!--Add Mfr. source & Identifier-->
+| 6 | 1x15 Female Pin Header                    | 2    | Grobotronics                 | 19-00011915             |       |
 <a id="electro7"></a>
-| 6 | 1x15 Male Pin Header                      | 2    | Included in Arduino kit    | —                             |       |
+| 7 | 1x15 Male Pin Header                      | 2    | Included in Arduino kit      | —                       |       |
 <a id="electro8"></a>
-| 7 | Metal Film Resistor 100 Ω, 1/4W, 1%       | 4    | YAGEO            | MFR25SFTF52-100R            |       |
+| 8 | Metal Film Resistor 100 Ω, 1/4W, 1%       | 4    | YAGEO                        | MFR25SFTF52-100R        |       |
 <a id="electro9"></a>
-| 8 | Metal Film Resistor 2.2 kΩ, 1/2W, 1%      | 3    | YAGEO MFR25SFTF52-2K2            | MFR25SFTF52-2K2           |       |
+| 9 | Metal Film Resistor 2.2 kΩ, 1/2W, 1%      | 3    | YAGEO                        | MFR25SFTF52-2K2         |       |
 <a id="electro10"></a>
-| 9 | Metal Film Resistor 1 kΩ, 1/2W, 1%        | 3    | YAGEO                | CFR-25JB-1K0           |       |
+| 10 | Metal Film Resistor 1 kΩ, 1/2W, 1%       | 3    | YAGEO                        | CFR-25JB-1K0            |       |
 <a id="electro11"></a>
-|10 | Metal Film Resistor 10 kΩ, 1/4W, 1%       | 3    | YAGEO             | CFR25SJT-52-10K            |       |
+| 11 | Metal Film Resistor 10 kΩ, 1/4W, 1%      | 3    | YAGEO                        | CFR25SJT-52-10K         |       |
 <a id="electro12"></a>
-|11 | BC547B Transistor                         | 2    | onsemi / Fairchild                      | BC547B     |       |
+| 12 | BC547B Transistor                        | 2    | onsemi / Fairchild           | BC547B                  |       |
 <a id="electro13"></a>
-|12 | Aluminium Electrolytic Capacitor          | 1    | Rubycon          | 35ZLR220MEFC8X11.5          |       |
+| 13 | Aluminium Electrolytic Capacitor         | 1    | Rubycon                      | 35ZLR220MEFC8X11.5      |       |
 <a id="electro14"></a>
-|13 | Tactile Push Button Switch (6×6×6)        | 2    | Same Sky     | TS02-66-70-BK-160-SCR-D     |       |
+| 14 | Tactile Push Button Switch (6×6×6)       | 2    | Same Sky                     | TS02-66-70-BK-160-SCR-D |       |
 <a id="electro15"></a>
-|13 | Tactile Push Button Switch (6×6×9)        | 1    | —                          |                               | —     | <!--Add Mfr. source & Identifier-->
+| 15 | Tactile Push Button Switch (6×6×9)       | 1    | —                            |                         | —     |
 <a id="electro16"></a>
-|14 | Diode Rectifier                           | 2    | Vishay General Semiconductor           | 1N4005-E3/73  |       |
+| 16 | Diode Rectifier                          | 2    | Vishay General Semiconductor | 1N4005-E3/73            |       |
 <a id="electro17"></a>
-|15 | Printed Circuit Board (PCB)               | 1    | Custom                     | —                             |       |
+| 17 | Printed Circuit Board (PCB)              | 1    | Custom                       | —                       |       |
 
 <div align="center">
 <figure id="fig1">
@@ -56,11 +56,11 @@ Arduino is a microcontroller that converts the analog signal from the lick and p
 </figure>
 </div>
 
-> :memo: **Note:** <ins>You will also need</ins>: a soldering iron, a wire cutter
+> **Note:** You will also need: a soldering iron, a wire cutter
 
-## 🛠️ Step-by-step assemply instructions
+## Step-by-Step Assembly Instructions
 
-**Step 1**. Print the PCB board of the schematic ([Fig. 2](#fig2)). PCB and gerder files for JLPCB are available [here](). <!--Add hyperlink-->
+**Step 1**. Print the PCB board of the schematic ([Fig. 2](#fig2)). PCB and gerber files for JLPCB will be available in a future update.
 
 <div align="center">
 <figure id="fig2">
@@ -158,5 +158,4 @@ Arduino is a microcontroller that converts the analog signal from the lick and p
 </figure>
 </div>
 
-**Step 13**. Set up the Arduino using the code provided [here](https://github.com/ef-lab/ethopy_hardware/blob/main/EthoPy_Controller/EthoPy_Controller_code.ino).
-
+**Step 13**. Set up the Arduino using the code provided [here](EthoPy_Controller_code.ino).
