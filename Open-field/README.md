@@ -117,9 +117,7 @@ The interior of the enclosure consists of a plexiglass box (arena), where the mo
 
 ### Extra Parts
 
-To record the experiment you need red LED lights and a camera.
-
-> **Note:** We used Arducam 2.3MP AR0234 Color Global Shutter USB 3.0 Camera Module-With Enclosure. If you use a camera that records in darkness, lights might not be necessary.
+To record the experiment you will aslo need red LED lights and a camera capable of recording fps>30 and a fov>80&deg; (We used Arducam 2.3MP AR0234 Color Global Shutter USB 3.0)
 
 ### PC Requirements
 For the Open-field setup in the EthoPy project, in addition to the standard installation, you will need to enable real-time pose estimation by installing `DeepLabCut-Live`, which provides a lightweight, low-latency inference pipeline for online tracking. To achieve frame rates greater than 30 FPS, we strongly recommend using a system running Ubuntu paired with a powerful NVIDIA GPU (minimum 8GB VRAM), as this ensures compatibility with TensorFlow and allows for GPU-accelerated inference. CPU-only systems or unsupported GPUs (e.g., Intel or AMD) will not meet the real-time demands.
